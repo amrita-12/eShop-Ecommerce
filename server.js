@@ -31,7 +31,7 @@ app.use("/api/v1/user",userRoute);
 
 //rest api
 app.get("/", (req, res) => {
-  res.send("<h1>Welcome to ecommerce app</h1>");
+  res.send("<h1>Welcome to eShop</h1>");
 });
 
 //PORT
